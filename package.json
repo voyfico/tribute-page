@@ -1,0 +1,23 @@
+{
+  "name": "30-uib-publishing-flow-voyfico",
+  "version": "1.0.0",
+  "description": "Let's make our work public to share it with the world. Use this power wisely and **within legal laws & regulations** (no hate, no bullying, misinformation etc.).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voyfico/tribute-page.git"
+  },
+  "author": "davis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/voyfico/tribute-page/issues"
+  },
+  "homepage": "https://github.com/voyfico/tribute-page#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
