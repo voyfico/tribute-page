@@ -1,0 +1,151 @@
+body {
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(175, 179, 180);
+}
+
+header {
+border: 18px solid rgb(0, 0, 0);
+}
+
+h1 {
+    font-family: DM Sans;
+    font-size: 40pt;
+    text-align: center;
+}
+h2 {
+    /* font-family: DM Sans;
+    font-size: 20pt; */
+    text-align: center;
+}
+h3 {
+    font-family: DM Sans;
+    text-align: center;
+    margin-top: 300px;
+    font-size: 30pt;
+    z-index: 8;
+    position: relative;
+}
+.links {
+    font-family: DM Sans;
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(251, 253, 253);
+    padding-left: 20px;
+    text-decoration: none;
+}
+.links:hover {
+    color: rgb(0, 0, 0);
+}
+
+.links:visited:hover {
+    color: rgb(117, 120, 121);
+}
+
+#TimPhoto {
+    width: 600px;
+    height: auto;
+    display: block;
+    margin-left: auto; margin-right: auto;
+    z-index: 8;
+    position: relative;
+    border: 18px solid rgb(117, 120, 121);
+}
+figcaption {
+    font-family: DM Sans;
+    font-size: 20pt;
+    font-style: italic;
+    text-align: center;
+    width: 600px;
+    padding-left: 370px;
+}
+ul {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    padding-top: 97px;
+}
+ul li {
+    font-family: DM Sans;
+    font-size: 15pt;
+    list-style: none;
+    width: 800px;
+    padding: 10px;
+}
+#bigtext {
+    z-index: 5;
+    position: absolute;
+    overflow: hidden;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-size: 200pt;
+    color: rgb(117, 120, 121);
+    padding-top: 90px;
+    padding-left: 8px;
+}
+
+#quote {
+    /* border: 18px solid rgb(5, 125, 245); */
+    border: 18px solid rgb(251, 253, 253);
+    background-color: rgb(175, 179, 180);
+    font-family: DM Sans;
+    font-size: 30pt;
+    text-align: center;
+    width: 600px;
+    position: relative;
+    margin-left: 700px;
+    color: rgb(251, 253, 253);
+    /* color: rgb(5, 125, 245); */
+    font-style: italic;
+    padding: 30px;
+}
+#bigquote {
+    color: rgb(117, 120, 121);
+   /*  color: rgb(255, 255, 255); */
+    position: absolute;
+    font-family: DM Sans;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 155pt;
+    border: 18px solid rgb(117, 120, 121);
+    padding: 15px;
+   
+}
+footer {
+    border: 18px solid rgb(0, 0, 0);
+    font-family: DM Sans;
+    font-size: 20pt;
+    text-align: center;
+    margin-top: 250px;
+    position: sticky;
+    color: rgb(251, 253, 253);
+}
+.time {
+    border: 8px solid rgb(0, 0, 0);
+    font-family: DM Sans;
+    font-size: 15pt;
+    z-index: 8;
+    position: relative;
+    width: 1200px;
+    /* margin-top: 450px; */
+    margin-left: 50px;
+    padding: 20px;
+}
+.timBernersLee {
+    border: 8px solid rgb(255, 255, 255);
+    font-family: DM Sans;
+    font-size: 15pt;
+    color: rgb(255, 255, 255);
+    z-index: 8;
+    position: relative;
+    width: 600px;
+    margin-left: 600px;
+    padding: 20px;
+    margin-top: -40px;
+}
+ .time:hover {
+    background-color: rgb(117, 120, 121);
+}
+.timBernersLee:hover {
+    background-color: rgb(175, 179, 180);
+}
